@@ -76,45 +76,6 @@ Once the application is running:
 -   Click on `3` to visit the **UI Experiment**.
     -   Click the "تغییر رنگ" (Change Color) button to randomly change the page background.
 
-## Project Structure
-
-├── public/                    # Public assets (HTML template, manifest, robots.txt)
-│   ├── favicon.ico
-│   ├── index.html             # Main HTML file
-│   ├── manifest.json
-│   └── robots.txt
-├── src/
-│   ├── component/
-│   │   ├── App/
-│   │   │   ├── App.css        # Global app styles
-│   │   │   └── App.js         # Main application component with routing
-│   │   ├── Circle/
-│   │   │   ├── Circle.css     # Styles for circular navigation links
-│   │   │   ├── CirclePages.js # Component handling navigation to individual pages
-│   │   │   └── pages/         # Individual project/page components
-│   │   │       ├── page1/     # E-commerce page
-│   │   │       │   ├── Cart.css
-│   │   │       │   ├── Cart.js
-│   │   │       │   ├── Footer.css
-│   │   │       │   ├── Footer.js
-│   │   │       │   ├── Navbar.css
-│   │   │       │   ├── Navbar.js
-│   │   │       │   ├── Page1.js
-│   │   │       │   ├── Product.js
-│   │   │       │   └── page1.css
-│   │   │       ├── page2/     # Product management page
-│   │   │       │   ├── Navbar.js
-│   │   │       │   ├── Page2.js
-│   │   │       │   ├── Product.js
-│   │   │       │   └── context/
-│   │   │       │       └── ProductsContext.js # React Context for Page 2
-│   │   │       └── page3/     # UI experiment page
-│   │   │           └── Page3.js
-│   │   └── index.js           # React entry point
-├── .gitignore                 # Specifies intentionally untracked files to ignore
-├── package.json               # Project dependencies and scripts
-└── README.md                  # Project documentation (this file)
-
 
 ## Screenshots/Preview
 
